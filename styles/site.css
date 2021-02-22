@@ -34,9 +34,9 @@ h2{
 }
 
 h3{
-color:black;
-font-size: large;
-text-decoration: solid ;
+  color:black;
+  font-size: large;
+  text-decoration: solid ;
 }
 
 p {
@@ -92,11 +92,11 @@ nav a {
 
 
 .box {
-height: 320px;;
+  height: 320px;;
 }
 img.align-left {
-float: left;
-margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
 
 img.align-right {
@@ -111,23 +111,23 @@ img.align-center {
   margin-left: 10px;
   
   }
-  img.one{
-    width:217px;
-    height: auto;
-  }
+img.one{
+   width:217px;
+   height: auto;
+}
 
-  img.two{
-    width:350px;
-    height:auto;
-    padding-top: 10px;
-  }
+img.two{
+   width:350px;
+   height:auto;
+   padding-top: 10px;
+}
 
-  img.three{
-    width:318px;
-    height:auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
-  }
+img.three{
+   width:318px;
+   height:auto;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
 
 img.square {
   width: 180px;
@@ -142,16 +142,6 @@ img.medium{
 img.small{
   width: 50px;
   height: auto;
-}
-img.custom{
-  height: 447.75px;
-  width: auto;
-}
-img.custom2{
-  height: 223.25px;
-  width: auto;
-  margin-bottom: 5px;
-  margin-top: 5px;;
 }
 
 footer {
@@ -168,28 +158,8 @@ li{
 .right {
   float: right;
 }
-.left{
-  float: left;
-}
 
-.column{
-  float:left;
-  width: 210px;
-  padding: 5px;
-}
-.column2{
-  float:left;
-  width: 350px;
-  padding: 5px;
-}
-.column-right{
-  float:right;
-  width: 280px;
-  padding: 5px;
-  padding-right: 45px;
-}
-.row::after{
-  content:"";
-  clear:both;
-  display:table;
+legend{
+  color:black;
+  size: small;
 }
